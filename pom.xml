@@ -48,13 +48,21 @@
         </testResources>
     </build>
 
+    <repositories>
+        <repository>
+            <name>lss233</name>
+            <id>lss233</id>
+            <url>https://lss233.littleservice.cn/repositories/minecraft</url>
+        </repository>
+    </repositories>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>io.github.dreamvoid</groupId>
                 <artifactId>MiraiMC-Integration</artifactId>
                 <!--请确保版本为Github上的最新版本-->
-                <version>1.5</version>
+                <version>1.7.1</version>
                 <scope>provided</scope>
             </dependency>
         </dependencies>
